@@ -1,4 +1,5 @@
 import React from 'react'
+import WorkExperience from './Experience';
 
 const About = () => {
   return (
@@ -20,7 +21,39 @@ const About = () => {
                     exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                   </div>
             </div>
+
+
+
+
+
+
+            <div>
+
+      
+            <h3 className="text-xl font-semibold mb-2">Work Experience</h3>
+            <WorkExperience
+              company="ABC Company"
+              position="Software Engineer"
+              duration="Jan 2020 - Present"
+              description="Responsible for developing and maintaining web applications using React.js and Node.js."
+            />
+            <WorkExperience
+              company="XYZ Corporation"
+              position="Frontend Developer"
+              duration="May 2018 - Dec 2019"
+              description="Designed and implemented user interfaces for client-facing applications using HTML, CSS, and JavaScript."
+            />
+          </div>
+
+
+
+            
+
+
+
         </div>
+
+        
     </div>
   )
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import TypingEffect from "./TypingEffect";
-import HeroImage from "../assets/raymond.jpg";
+import HeroImage from "../assets/raymond.png";
 import { Link as ScrollLink } from 'react-scroll';
 
 const Home = () => {
