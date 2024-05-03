@@ -81,7 +81,7 @@ const Skills = () => {
                 <div className='flex py-3 gap-10 items-center transition duration-300'><p className='min-w-[90px]  text-xl font-semibold'>C++</p><hr className='outline-none border-none w-1/2 h-1.5 rounded-full bg-gradient-to-r from-[#b415ff] to-[#df8908]'  style={{width:"30%"}} /></div>
                 <div className='flex py-3 gap-8 items-center transition duration-300'><p className='min-w-[90px]  text-xl font-semibold'>JavaScript</p><hr className='outline-none border-none w-1/2 h-1.5 rounded-full bg-gradient-to-r from-[#b415ff] to-[#df8908]'  style={{width:"45%"}} /></div>
                 <div className='flex py-3 gap-10 items-center transition duration-300'><p className='min-w-[90px]  text-xl font-semibold'>HTML</p><hr className='outline-none border-none w-1/2 h-1.5 rounded-full bg-gradient-to-r from-[#b415ff] to-[#df8908]'  style={{width:"70%"}} /></div>
-                <div className='flex py-3 gap-10 items-center transition duration-300'><p className='min-w-[90px]  text-xl font-semibold'>CSS</p><hr className='outline-none border-none w-1/2 h-1.5 rounded-full bg-gradient-to-r from-[#b415ff] to-[#df8908]'  style={{width:"70%"}} /></div>
+                <div className='flex py-3 gap-10 items-center transition duration-300'><p className='min-w-[90px]  text-xl font-semibold'>CSS</p><hr className='outline-none border-none w-1/2 h-1.5 rounded-full bg-gradient-to-r from-[#b415ff] to-[#df8908]'  style={{width:"60%"}} /></div>
                 </div>
             </div>
 
