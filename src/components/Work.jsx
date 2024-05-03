@@ -1,6 +1,10 @@
 import React from 'react'
-import WorkImg from '../assets/workImg.jpeg'
+import crave from '../assets/craver.png'
+import philfutures from '../assets/philfutures.png'
+import ibake from '../assets/ibake.png'
+import esme from '../assets/esme.png'
 import realEstate from '../assets/realestate.jpg'
+import WorkImg from '../assets/workImg.jpeg'
 
 const Work = () => {
   return (
@@ -17,7 +21,7 @@ const Work = () => {
 
                 {/* Grid Item */}
                 <div 
-                style={{backgroundImage: `url(${WorkImg})`}}
+                style={{backgroundImage: `url(${ibake})`}}
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
                 >
                     
@@ -38,7 +42,7 @@ const Work = () => {
                     </div>
                 </div>
                 <div 
-                style={{backgroundImage: `url(${realEstate})`}}
+                style={{backgroundImage: `url(${crave})`}}
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
                 >
                     
@@ -59,7 +63,7 @@ const Work = () => {
                     </div>
                 </div>
                 <div 
-                style={{backgroundImage: `url(${WorkImg})`}}
+                style={{backgroundImage: `url(${philfutures})`}}
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
                 >
                     
@@ -82,7 +86,7 @@ const Work = () => {
 
                 {/* Grid Item */}
                 <div 
-                style={{backgroundImage: `url(${WorkImg})`}}
+                style={{backgroundImage: `url(${esme})`}}
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
                 >
                     
