@@ -4,7 +4,7 @@ import { HiSave } from "react-icons/hi";
 
 const About = () => {
   return (
-    <div name='about' className='w-full h-full bg-gradient-to-b from-gray-800 to-black text-gray-100'>
+    <div name='about' className='w-full md:h-screen bg-gradient-to-b from-gray-800 to-black text-gray-100'>
         <div className='flex flex-col justify-center items-center w-full h-full'>
             <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
                 <div className='sm:text-right pb-8 pl-4'>
@@ -26,7 +26,7 @@ const About = () => {
 
            
 
-                <section className="py-20 max-w-[800px] w-full" id="experience">
+                <div className="py-20 max-w-[800px] w-full" name="experience">
                   <div className="container m-auto px-4">
                     <h2 className="text-2xl font-semibold">Work Experiences</h2>
                     <div className="mt-10 relative before:absolute before:top-0 before:left-16 before:rounded-full before:bottom-10 sm:before:bottom-2 before:w-1 before:bg-white">
@@ -74,7 +74,7 @@ const About = () => {
                       </span>
                     </button>
                     </div>
-                </section>
+                </div>
 
                 
 

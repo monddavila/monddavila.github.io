@@ -1,5 +1,4 @@
 import React from 'react'
-
 import ReatImg from '../assets/react.png';
 import Github from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
@@ -15,7 +14,7 @@ import Firebase from '../assets/firebase.png';
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-100'>
+    <div name='skills' className='w-full md:h-screen bg-gradient-to-b from-black to-gray-800 text-gray-100'>
         {/* Container*/}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>
@@ -75,7 +74,15 @@ const Skills = () => {
             </div>
 
             <div>
-                <p className='py-4'>Additional Technologies and Frameworks.</p>
+                <p className='py-4'>Additional Technologies and Languages.</p>
+                <div className='max-w-[800px] mx-auto'>
+                <div className='flex py-3 gap-10 items-center transition duration-300'><p className='min-w-[90px]   text-xl font-semibold'>PHP</p><hr className='outline-none border-none w-1/2 h-1.5 rounded-full bg-gradient-to-r from-[#b415ff] to-[#df8908]' style={{width:"60%"}} /></div>
+                <div className='flex py-3 gap-10 items-center transition duration-300'><p className='min-w-[90px]  text-xl font-semibold'>Java</p><hr className='outline-none border-none w-1/2 h-1.5 rounded-full bg-gradient-to-r from-[#b415ff] to-[#df8908]'  style={{width:"40%"}} /></div>
+                <div className='flex py-3 gap-10 items-center transition duration-300'><p className='min-w-[90px]  text-xl font-semibold'>C++</p><hr className='outline-none border-none w-1/2 h-1.5 rounded-full bg-gradient-to-r from-[#b415ff] to-[#df8908]'  style={{width:"30%"}} /></div>
+                <div className='flex py-3 gap-8 items-center transition duration-300'><p className='min-w-[90px]  text-xl font-semibold'>JavaScript</p><hr className='outline-none border-none w-1/2 h-1.5 rounded-full bg-gradient-to-r from-[#b415ff] to-[#df8908]'  style={{width:"45%"}} /></div>
+                <div className='flex py-3 gap-10 items-center transition duration-300'><p className='min-w-[90px]  text-xl font-semibold'>HTML</p><hr className='outline-none border-none w-1/2 h-1.5 rounded-full bg-gradient-to-r from-[#b415ff] to-[#df8908]'  style={{width:"70%"}} /></div>
+                <div className='flex py-3 gap-10 items-center transition duration-300'><p className='min-w-[90px]  text-xl font-semibold'>CSS</p><hr className='outline-none border-none w-1/2 h-1.5 rounded-full bg-gradient-to-r from-[#b415ff] to-[#df8908]'  style={{width:"70%"}} /></div>
+                </div>
             </div>
 
         </div>
