@@ -3,6 +3,7 @@ import { HiArrowNarrowRight } from 'react-icons/hi';
 import TypingEffect from "./TypingEffect";
 import HeroImage from "../assets/raymond.png";
 import { Link as ScrollLink } from 'react-scroll';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Home = () => {
   return (
@@ -20,7 +21,7 @@ const Home = () => {
           />
 
           <p className='text-[#8892b0] py-4 max-w-[700px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <div>
+          <div className="flex items-center">
             <ScrollLink to="about" smooth={true} duration={500}>
               <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-yellow-600 hover:border-yellow-600' >Know More
                 <span className='group-hover:rotate-90 duration-300'>
@@ -28,7 +29,16 @@ const Home = () => {
                 </span>
               </button>
             </ScrollLink>
+            <a href="https://www.linkedin.com/in/raymond-luna-davila/" target="_blank" rel="noopener noreferrer" className="ml-4">
+              <FaLinkedin className="text-3xl text-gray-200 hover:text-gray-600" />
+            </a>
+            <a href="https://github.com/monde1023" target="_blank" rel="noopener noreferrer" className="ml-4">
+              <FaGithub className="text-3xl text-gray-200 hover:text-gray-600" />
+            </a>
+          
           </div>
+
+
         </div>
       </div>
     </div>

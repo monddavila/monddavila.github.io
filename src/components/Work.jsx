@@ -5,6 +5,7 @@ import ibake from '../assets/ibake.png'
 import esme from '../assets/esme.png'
 import realEstate from '../assets/realestate.jpg'
 import WorkImg from '../assets/workImg.jpeg'
+import { FaRegArrowAltCircleRight } from "react-icons/fa";
 
 const Work = () => {
   return (
@@ -31,7 +32,7 @@ const Work = () => {
                         React JS Application
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href='/'>
+                            <a href='https://www.ibakeph.me'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
                             <a href='/'>
@@ -151,6 +152,16 @@ const Work = () => {
 
                 
             </div>
+
+                <div className='flex py-4 justify-center items-center'>
+
+                <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-yellow-600 hover:border-yellow-600' >Show More
+                    <span className='group-hover:scale-150 duration-300'>
+                    <FaRegArrowAltCircleRight className='ml-3' />
+                    </span>
+                </button>
+
+             </div>
         </div>
     </div>
   )

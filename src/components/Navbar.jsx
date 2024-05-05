@@ -19,24 +19,31 @@ const Navbar = () => {
         </div>
         {/* menu */}
 
-            <ul className='hidden md:flex'>
-            
-                <li className='text-[18px] hover:inline border-b-2 border-transparent hover:border-yellow-600 hover:scale-110'>
-                    <Link to="home" smooth={true} duration={500}>Home</Link>
-                </li>
-                <li className='text-[18px] hover:inline border-b-2 border-transparent hover:border-yellow-600 hover:scale-110'>
-                <   Link to="about" smooth={true} duration={500}>About</Link>
-                </li>
-                <li className='text-[18px] hover:inline border-b-2 border-transparent hover:border-yellow-600 hover:scale-110'>
-                <   Link to="skills" smooth={true} duration={500}>Skills</Link>
-                </li>
-                <li className='text-[18px] hover:inline border-b-2 border-transparent hover:border-yellow-600 hover:scale-110'>
-                    <Link to="projects" smooth={true} duration={500}>Projects</Link>
-                </li>
-                <li className='text-[18px] hover:inline border-b-2 border-transparent hover:border-yellow-600 hover:scale-110'>
-                    <Link to="contact" smooth={true} duration={500}>Contact</Link>
-                </li>
-            </ul>
+        <ul className='hidden md:flex justify-center items-center'>
+            <li className='text-[18px] hover:inline border-b-2 border-transparent hover:border-yellow-600 hover:scale-110'>
+                <Link to="home" smooth={true} duration={500}>Home</Link>
+            </li>
+            <li className='text-[18px] hover:inline border-b-2 border-transparent hover:border-yellow-600 hover:scale-110'>
+                <Link to="about" smooth={true} duration={500}>About</Link>
+            </li>
+            <li className='text-[18px] hover:inline border-b-2 border-transparent hover:border-yellow-600 hover:scale-110'>
+                <Link to="skills" smooth={true} duration={500}>Skills</Link>
+            </li>
+            <li className='text-[18px] hover:inline border-b-2 border-transparent hover:border-yellow-600 hover:scale-110'>
+                <Link to="projects" smooth={true} duration={500}>Projects</Link>
+            </li>
+            <li className='text-[18px] hover:inline border-b-2 border-transparent hover:border-yellow-600 hover:scale-110'>
+                <Link to="contact" smooth={true} duration={500}>Contact</Link>
+            </li>
+            <li>
+                <a href='/Raymond-Davila-Resume.pdf' download>
+                <button className='text-[18px] border-2 border-grey-600 rounded-2xl hover:border-yellow-600 hover:scale-110 px-2 py-1 shadow-md bg-gray-500 hover:bg-yellow-600'>
+                    My Resume
+                </button>
+                </a>
+            </li>
+        </ul>
+
 
         {/* Hamburger */}
             <div onClick={handleClick} className='md:hidden z-10'>

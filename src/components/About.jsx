@@ -68,11 +68,13 @@ const About = () => {
                   </div>
 
                     <div className='flex justify-center items-center'>
+                    <a href='/Raymond-Davila-Resume.pdf' download>
                     <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-yellow-600 hover:border-yellow-600' >My Resume
                       <span className='group-hover:zoom duration-300'>
                         <HiSave className='ml-3 animate-bounce w-6 h-6' />
                       </span>
                     </button>
+                    </a>
                     </div>
                 </div>
 
