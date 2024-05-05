@@ -14,12 +14,12 @@ const About = () => {
                 </div>
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                   <div className='sm:text-right text-4xl font-bold'>
-                    <p>Hi. I'm Raymond, nice to meet you, please take a look around.</p>
+                    <p>Hi. I'm Raymond, nice to meet you, learn more about how I bridge the gap!</p>
                   </div>
                   <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>My unique blend of Information Technology and Mining Engineering degrees has equipped me with a strong foundation in problem-solving, data analysis, and process optimization.  This analytical mindset translates seamlessly into the world of software development, where I can leverage my web development experience with frameworks like Laravel and WordPress to build efficient and user-friendly solutions.</p>
+                    <br />
+                    <p>I'm a fast learner with a passion for technology and automation.  I thrive in collaborative environments that encourage continuous learning, and I'm eager to contribute my skills to real-world projects.  I believe my diverse background and dedication to growth make me a valuable asset to any development team.</p>
                   </div>
             </div>
         
@@ -34,10 +34,10 @@ const About = () => {
                         <h3 className="absolute left-0 text-lg font-semibold">2021</h3>
                         <p>
                           <WorkExperience
-                            company="ABC Company"
+                            company="ESME Philippines"
                             position="Web Developer Intern"
                             duration="Feb 2021 - Mar 2022"
-                            description="Responsible for developing and maintaining web applications using React.js and Node.js."
+                            description="Build and manage client websites. Aced data analysis with Google and Matomo to optimize website performance and inform decision-making. Led a 6-person team using Agile methodologies and project management tools."
                           />
                         </p>
                       </div>
@@ -48,7 +48,7 @@ const About = () => {
                             company="MJ Crave Digital Advertising Services"
                             position="Freelance Developer"
                             duration="Jan 2020 - Jun 2022"
-                            description="Responsible for developing and maintaining web applications using React.js and Node.js."
+                            description="Freelanced System Admin & Developer, managing B2B platforms (Laravel & WordPress). Built new features and functionalities while handling cloud infrastructure on DigitalOcean. Adepted at integrating 3rd party applications like payment gateways and SMS APIs."
                           />
                         </p>
                       </div>
@@ -59,7 +59,7 @@ const About = () => {
                             company="Mining Contractors - Mining & Quarry Operations"
                             position="Mining Engineer"
                             duration="Feb 2015 - Jan 2019"
-                            description="Responsible for developing and maintaining web applications using React.js and Node.js."
+                            description="Led a large mining team (120+) to consistently exceed production targets through data-driven process optimization (14% cost reduction, 25% productivity increase). Proven ability to analyze complex systems and implement efficient solutions."
                           />
                         </p>
                       </div>

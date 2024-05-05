@@ -13,7 +13,7 @@ const Work = () => {
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-yellow-600'>Projects</p>
-                <p className='py-6'>Get a glimpse of my capabilities. <strong><em>"From design to development, see what I can create."</em></strong></p>
+                <p className='py-6'>Get a glimpse of my capabilities. <strong><em>"Explore my work and see how I can bridge the gap!"</em></strong></p>
 
             </div>
 
@@ -28,9 +28,10 @@ const Work = () => {
                     
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                        React JS Application
+                        <span className='text-xl font-bold text-white tracking-wider text-center'>
+                        <p>Full E-commerce Website</p>
                         </span>
+                        <p>Full E-commerce Website</p>
                         <div className='pt-8 text-center'>
                             <a href='https://www.ibakeph.me'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
@@ -49,9 +50,10 @@ const Work = () => {
                     
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                        React JS Application
+                        <span className='text-xl font-bold text-white tracking-wider text-center'>
+                        <p>B2B Platform</p>
                         </span>
+                        <p>Full E-commerce Website</p>
                         <div className='pt-8 text-center'>
                             <a href='/'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
@@ -70,9 +72,10 @@ const Work = () => {
                     
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                        React JS Application
+                        <span className='text-xl font-bold text-white tracking-wider text-center'>
+                        <p>Organizational Platform</p>
                         </span>
+                        <p>WordPress, PHP</p>
                         <div className='pt-8 text-center'>
                             <a href='/'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
@@ -93,9 +96,10 @@ const Work = () => {
                     
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                        React JS Application
+                        <span className='text-xl font-bold text-white tracking-wider text-center'>
+                        <p>Learning Management System</p>
                         </span>
+                        <p className='text-center'> Thinkific, CMS</p>
                         <div className='pt-8 text-center'>
                             <a href='/'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
@@ -114,9 +118,10 @@ const Work = () => {
                     
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                        React JS Application
+                        <span className='text-xl font-bold text-white tracking-wider text-center'>
+                        <p>Company Website</p>
                         </span>
+                        <p>React JS, Tailwind</p>
                         <div className='pt-8 text-center'>
                             <a href='/'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
@@ -135,9 +140,10 @@ const Work = () => {
                     
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                        React JS Application
+                        <span className='text-xl font-bold text-white tracking-wider text-center'>
+                        <p>Company Website</p>
                         </span>
+                        <p>React JS, Tailwind</p>
                         <div className='pt-8 text-center'>
                             <a href='/'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
