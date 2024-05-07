@@ -13,7 +13,7 @@ const Work = () => {
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-yellow-600'>Projects</p>
-                <p className='py-6'>Get a glimpse of my capabilities. <strong><em>"Explore my work and see how I can bridge the gap!"</em></strong></p>
+                <p className='py-6'>Get a glimpse of my capabilities. <strong><em>"Explore my work and see how I can bridge the gap for you!"</em></strong></p>
 
             </div>
 

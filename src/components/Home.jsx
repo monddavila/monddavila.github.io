@@ -20,7 +20,7 @@ const Home = () => {
             texts={["Programming Enthusiast", "Web Developer", "Full Stack Developer", "Mining Engineer", "Tech Savvy :)"]}
           />
 
-          <p className='text-[#8892b0] py-4 max-w-[700px]'>Tech enthusiast with a blend of IT and Mining Engineering.  This unique background equips me to tackle problems analytically and build user-friendly software.  Passionate learner, eager to contribute to real-world projects!</p>
+          <p className='text-[#8892b0] py-4 max-w-[700px]'>Data-driven developer with a unique blend of IT and Mining Engineering. I bridge the gap between data and design, translating complex concepts into clear and actionable solutions with a passion for problem-solving.</p>
           <div className="flex items-center">
             <ScrollLink to="about" smooth={true} duration={500}>
               <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-yellow-600 hover:border-yellow-600' >Know More

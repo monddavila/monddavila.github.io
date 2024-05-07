@@ -16,9 +16,9 @@ const About = () => {
                     <p>Hi. I'm Raymond, nice to meet you, learn more about how I bridge the gap!</p>
                   </div>
                   <div>
-                    <p>My unique blend of Information Technology and Mining Engineering degrees has equipped me with a strong foundation in problem-solving, data analysis, and process optimization.  This analytical mindset translates seamlessly into the world of software development, where I can leverage my web development experience with frameworks like Laravel and WordPress to build efficient and user-friendly solutions.</p>
+                    <p>Leveraging a 5-year career in Mining Engineering, especially project management and engineering, I thrived on using Excel formulas and VBAs to automate project costing and report generation. This passion for efficiency fueled my desire to pursue a second degree in IT (2019), equipping me with the technical foundation to excel in software development.</p>
                     <br />
-                    <p>I'm a fast learner with a passion for technology and automation.  I thrive in collaborative environments that encourage continuous learning, and I'm eager to contribute my skills to real-world projects.  I believe my diverse background and dedication to growth make me a valuable asset to any development team.</p>
+                    <p>I gained hands-on experience building web applications (Laravel) and websites (WordPress) for a startup. This project honed my full-stack development skills (backend scripting, HTML, CSS, JavaScript, JSON), database management (MySQL, MariaDB), and third-party integrations.  Additionally, a web development internship solidified my understanding of CMS management, client service, and cross-team collaboration while focusing on website maintenance, WordPress development with plugins, and user experience design with Elementor.</p>
                   </div>
             </div>
         
