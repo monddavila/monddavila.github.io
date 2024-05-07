@@ -14,7 +14,7 @@ const Home = () => {
 
         <div className="md:order-1">
           <p className='text-yellow-300'>Hi, my name is</p>
-          <h1 className='hover:box-decoration-slice hover:bg-gradient-to-r from-indigo-600 to-pink-500 text-white text-4xl sm:text-7xl font-bold'>Raymond Davila</h1>
+          <h1 className='md:mb-3 hover:box-decoration-slice hover:bg-gradient-to-r from-indigo-600 to-pink-500 text-white text-4xl sm:text-7xl font-bold'>Raymond Davila</h1>
           {/* Add TypingEffect component here */}
           <TypingEffect
             texts={["Programming Enthusiast", "Web Developer", "Full Stack Developer", "Mining Engineer", "Tech Savvy :)"]}
