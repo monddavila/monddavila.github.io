@@ -31,7 +31,7 @@ const Work = () => {
                         <span className='text-xl font-bold text-white tracking-wider text-center'>
                         <p>Full E-commerce Website</p>
                         </span>
-                        <p>Online Ordering System</p>
+                        <p>Online Ordering System with Admin Panel</p>
                         <div className='flex row'>
                             <span className='text-[10px] text-center px-1 py-1 m-1 bg-blue-300 border border-grey-800 text-black'>Laravel</span>
                             <span className='text-[10px] text-center px-1 py-1 m-1 bg-blue-300 border border-grey-800 text-black'>Bootstrap</span>
