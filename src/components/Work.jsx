@@ -36,7 +36,7 @@ const Work = () => {
                             <a href='https://www.ibakeph.me'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href='/'>
+                            <a href='https://github.com/monde1023/ibake'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
@@ -77,12 +77,10 @@ const Work = () => {
                         </span>
                         <p>WordPress, PHP</p>
                         <div className='pt-8 text-center'>
-                            <a href='/'>
+                            <a href='https://phfutures.com' target="_blank" rel="noopener noreferrer">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href='/'>
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
+                          
                         </div>
 
                     </div>
@@ -101,12 +99,10 @@ const Work = () => {
                         </span>
                         <p className='text-center'> Thinkific, CMS</p>
                         <div className='pt-8 text-center'>
-                            <a href='/'>
+                            <a href='https://www.esme.ph/' target="_blank" rel="noopener noreferrer">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href='/'>
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
+                            
                         </div>
 
                     </div>
@@ -161,11 +157,13 @@ const Work = () => {
 
                 <div className='flex py-4 justify-center items-center'>
 
-                <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-yellow-600 hover:border-yellow-600' >Show More
+                <a href="https://github.com/monde1023" target="_blank" rel="noopener noreferrer" className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-yellow-600 hover:border-yellow-600'>
+                    Show More
                     <span className='group-hover:scale-150 duration-300'>
-                    <FaRegArrowAltCircleRight className='ml-3' />
+                        <FaRegArrowAltCircleRight className='ml-3' />
                     </span>
-                </button>
+                </a>
+
 
              </div>
         </div>

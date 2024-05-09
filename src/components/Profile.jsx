@@ -1,5 +1,6 @@
 import React from 'react'
 import { HiSave } from "react-icons/hi";
+import { FaGoogleDrive } from "react-icons/fa";
 import WorkExperience from './Experience';
 import Laravel from '../assets/laravel.png';
 import Wordpress from '../assets/wordpress.png';
@@ -13,6 +14,8 @@ import Cpp from '../assets/cpp.png';
 import Codeigniter from '../assets/codeigniter.png';
 import Netbeans from '../assets/netbeans.png';
 import Java from '../assets/java.png';
+import Css from '../assets/css.png';
+import Html from '../assets/html.png';
 
 const Profile = () => {
   return (
@@ -34,16 +37,19 @@ const Profile = () => {
                           />
                           <div className='flex row'>
                             <div className=" p-1 rounded-full mr-2">
-                              <img className='w-5' src={Laravel} alt="Laravel icon" title="Laravel" />
+                              <img className='w-5' src={Wordpress} alt="Wordpress icon" title="WordPress" />
                             </div>
                             <div className=" p-1 rounded-full mr-2">
-                              <img className='w-5' src={Wordpress} alt="Laravel icon" title="WordPress" />
-                            </div>
-                            <div className=" p-1 rounded-full mr-2">
-                              <img className='w-5' src={Php} alt="Laravel icon" title="PHP" />
+                              <img className='w-5' src={Php} alt="PHP icon" title="PHP" />
                             </div>
                             <div className="p-1 rounded-full mr-2">
-                              <img className='w-5' src={Javascript} alt="Laravel icon" title="JavaScript" />
+                              <img className='w-5' src={Javascript} alt="JavaScript icon" title="JavaScript" />
+                            </div>
+                            <div className="p-1 rounded-full mr-2">
+                              <img className='w-5' src={Html} alt="HTML icon" title="HTML" />
+                            </div>
+                            <div className=" p-1 rounded-full mr-2">
+                              <img className='w-5' src={Css} alt="CSS icon" title="CSS" />
                             </div>
                           </div>
                         </p>
@@ -63,25 +69,25 @@ const Profile = () => {
                               <img className='w-5' src={Laravel} alt="Laravel icon" title="Laravel" />
                             </div>
                             <div className=" p-1 rounded-full mr-2">
-                              <img className='w-5' src={Wordpress} alt="Laravel icon" title="WordPress" />
+                              <img className='w-5' src={Wordpress} alt="WordPress icon" title="WordPress" />
                             </div>
                             <div className=" p-1 rounded-full mr-2">
-                              <img className='w-5' src={Php} alt="Laravel icon" title="PHP" />
+                              <img className='w-5' src={Php} alt="PHP icon" title="PHP" />
                             </div>
                             <div className="p-1 rounded-full mr-2">
-                              <img className='w-5' src={Javascript} alt="Laravel icon" title="JavaScript" />
+                              <img className='w-5' src={Javascript} alt="JavaScript icon" title="JavaScript" />
                             </div>
                             <div className="p-1 rounded-full mr-2">
-                              <img className='w-5' src={Bootstrap} alt="Laravel icon" title="Bootstrap" />
+                              <img className='w-5' src={Bootstrap} alt="Bootstrap icon" title="Bootstrap" />
                             </div>
                             <div className="p-1 rounded-full mr-2">
-                              <img className='w-5' src={Mysql} alt="Laravel icon" title="MySQL" />
+                              <img className='w-5' src={Mysql} alt="MySQL icon" title="MySQL" />
                             </div>
                             <div className="p-1 rounded-full mr-2">
-                              <img className='w-5' src={Digitalocean} alt="Laravel icon" title="DigitalOcean" />
+                              <img className='w-5' src={Digitalocean} alt="DigitalOcean icon" title="DigitalOcean" />
                             </div>
                             <div className="p-1 rounded-full mr-2">
-                              <img className='w-5' src={Firebase} alt="Laravel icon" title="Firebase" />
+                              <img className='w-5' src={Firebase} alt="Firebase icon" title="Firebase" />
                             </div>
                           </div>
                         </p>
@@ -94,23 +100,23 @@ const Profile = () => {
                             company="AMA University"
                             position="BS in Information Technology Student"
                             duration="Jul 2019 - Dec 2023"
-                            description="Freelanced System Admin & Developer, managing B2B platforms (Laravel & WordPress). Built new features and functionalities while handling cloud infrastructure on DigitalOcean. Adepted at integrating 3rd party applications like payment gateways and SMS APIs."
+                            description="Honed my web development abilities with PHP, built a simple bank application using Java with NetBeans framework. Additionally, explored C++ by creating an employee record system with pay slip generation."
                           />
                           <div className='flex row'>
                             <div className=" p-1 rounded-full mr-2">
-                              <img className='w-5' src={Codeigniter} alt="Laravel icon" title="CodeIgniter" />
+                              <img className='w-5' src={Codeigniter} alt="CodeIgniter icon" title="CodeIgniter" />
                             </div>
                             <div className=" p-1 rounded-full mr-2">
-                              <img className='w-5' src={Netbeans} alt="Laravel icon" title="NetBeans" />
+                              <img className='w-5' src={Netbeans} alt="NetBeans icon" title="NetBeans" />
                             </div>
                             <div className=" p-1 rounded-full mr-2">
-                              <img className='w-5' src={Php} alt="Laravel icon" title="PHP" />
+                              <img className='w-5' src={Php} alt="PHP icon" title="PHP" />
                             </div>
                             <div className="p-1 rounded-full mr-2">
-                              <img className='w-5' src={Java} alt="Laravel icon" title="Java" />
+                              <img className='w-5' src={Java} alt="Java icon" title="Java" />
                             </div>
                             <div className="p-1 rounded-full mr-2">
-                              <img className='w-5' src={Cpp} alt="Laravel icon" title="C++" />
+                              <img className='w-5' src={Cpp} alt="C++ icon" title="C++" />
                             </div>
                           </div>
                         </p>
@@ -153,15 +159,26 @@ const Profile = () => {
                         </div>
                     </div>
 
-                    <div className='flex justify-center items-center'>
-                    <a href='/Raymond-Davila-Resume.pdf' download>
-                    <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-yellow-600 hover:border-yellow-600' >My Resume
-                      <span className='group-hover:zoom duration-300'>
-                        <HiSave className='ml-3 animate-bounce w-6 h-6' />
-                      </span>
-                    </button>
-                    </a>
-                    </div>
+                    <div className='flex flex-col items-center'>
+                      <div className="text-md font-semibold mb-4">Download My Resume</div>
+                      <div className="flex gap-4">
+                        <a href='/Raymond-Davila-Resume.pdf' download>
+                          <button className='text-white group border-2 px-4 py-2 flex items-center hover:bg-yellow-600 hover:border-yellow-600' >Direct
+                            <span className='group-hover:zoom duration-300'>
+                              <HiSave className='ml-3 animate-bounce w-6 h-6' />
+                            </span>
+                          </button>
+                        </a>
+                        <a href="https://drive.google.com/file/d/1lSh7T_MMRlOyOWdy6MUWwVBwi5iOzWN6/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                          <button className='text-white group border-2 px-4 py-2 flex items-center hover:bg-yellow-600 hover:border-yellow-600' >Drive
+                            <span className='group-hover:zoom duration-300'>
+                              <FaGoogleDrive className='ml-3 animate-bounce w-6 h-6' />
+                            </span>
+                          </button>
+                        </a>
+                      </div>
+                  </div>
+
                     
                 </div>
         </div>
