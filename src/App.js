@@ -6,6 +6,7 @@ import Work from "./components/Work";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Profile from "./components/Profile";
+import Mission from "./components/Mission";
 
 
 
@@ -15,6 +16,7 @@ function App() {
       <Navbar />
       <Home />
       <About />
+      <Mission />
       <Profile />
       <Skills />
       <Work />

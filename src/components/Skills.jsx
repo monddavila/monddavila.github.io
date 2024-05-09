@@ -14,7 +14,7 @@ import Firebase from '../assets/firebase.png';
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full md:h-screen bg-gradient-to-b from-gray-800 to-black text-gray-100'>
+    <div name='skills' className='w-full md:h-screen bg-gradient-to-b from-black to-gray-800 text-gray-100'>
         {/* Container*/}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>

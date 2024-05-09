@@ -9,7 +9,7 @@ import { FaRegArrowAltCircleRight } from "react-icons/fa";
 
 const Work = () => {
   return (
-    <div name='projects' className='w-full md:h-screen text-gray-100 bg-gradient-to-b from-black to-gray-800'>
+    <div name='projects' className='w-full md:h-screen text-gray-100 bg-gradient-to-b from-gray-800 to-black'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-yellow-600'>Projects</p>
@@ -56,11 +56,9 @@ const Work = () => {
                         <p>Full E-commerce Website</p>
                         <div className='pt-8 text-center'>
                             <a href='/'>
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Details</button>
                             </a>
-                            <a href='/'>
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
+                            
                         </div>
 
                     </div>

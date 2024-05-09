@@ -16,10 +16,12 @@ import Netbeans from '../assets/netbeans.png';
 import Java from '../assets/java.png';
 import Css from '../assets/css.png';
 import Html from '../assets/html.png';
+import Msoffice from '../assets/msoffice.png';
+import Vba from '../assets/vba.png';
 
 const Profile = () => {
   return (
-    <div name='profile' className='w-full md:h-full bg-gradient-to-b from-black to-gray-800 text-gray-100'>
+    <div name='profile' className='w-full md:h-full bg-gradient-to-b from-gray-800 to-black text-gray-100'>
         <div className='flex flex-col justify-center items-center w-full h-full'>
 
                 <div className="py-20 max-w-[800px] w-full" name="experience">
@@ -131,6 +133,14 @@ const Profile = () => {
                             duration="Feb 2015 - Jan 2019"
                             description="Led a large mining team (120+) to consistently exceed production targets through data-driven process optimization (14% cost reduction, 25% productivity increase). Proven ability to analyze complex systems and implement efficient solutions."
                           />
+                          <div className='flex row'>
+                            <div className=" p-1 rounded-full mr-2">
+                              <img className='w-5' src={Msoffice} alt="CodeIgniter icon" title="MS Office" />
+                            </div>
+                            <div className=" p-1 rounded-full mr-2">
+                              <img className='w-5' src={Vba} alt="NetBeans icon" title="Visual Basic" />
+                            </div>
+                          </div>
                         </p>
                       </div>
                       
