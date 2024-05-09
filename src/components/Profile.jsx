@@ -18,6 +18,7 @@ import Css from '../assets/css.png';
 import Html from '../assets/html.png';
 import Msoffice from '../assets/msoffice.png';
 import Vba from '../assets/vba.png';
+import Erp from '../assets/erp.png';
 
 const Profile = () => {
   return (
@@ -135,10 +136,13 @@ const Profile = () => {
                           />
                           <div className='flex row'>
                             <div className=" p-1 rounded-full mr-2">
-                              <img className='w-5' src={Msoffice} alt="CodeIgniter icon" title="MS Office" />
+                              <img className='w-5' src={Msoffice} alt="MsOffice icon" title="MS Office" />
                             </div>
                             <div className=" p-1 rounded-full mr-2">
-                              <img className='w-5' src={Vba} alt="NetBeans icon" title="Visual Basic" />
+                              <img className='w-5' src={Vba} alt="VBA icon" title="Visual Basic" />
+                            </div>
+                            <div className=" p-1 rounded-full mr-2">
+                              <img className='w-5' src={Erp} alt="ERP icon" title="Enterprise Resource Planning" />
                             </div>
                           </div>
                         </p>

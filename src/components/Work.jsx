@@ -31,7 +31,15 @@ const Work = () => {
                         <span className='text-xl font-bold text-white tracking-wider text-center'>
                         <p>Full E-commerce Website</p>
                         </span>
-                        <p>Full E-commerce Website</p>
+                        <p>Online Ordering System</p>
+                        <div className='flex row'>
+                            <span className='text-[10px] text-center px-1 py-1 m-1 bg-blue-300 border border-grey-800 text-black'>Laravel</span>
+                            <span className='text-[10px] text-center px-1 py-1 m-1 bg-blue-300 border border-grey-800 text-black'>Bootstrap</span>
+                            <span className='text-[10px] text-center px-1 py-1 m-1 bg-blue-300 border border-grey-800 text-black'>PHP</span>
+                            <span className='text-[10px] text-center px-1 py-1 m-1 bg-blue-300 border border-grey-800 text-black'>AJAX</span>
+                            <span className='text-[10px] text-center px-1 py-1 m-1 bg-blue-300 border border-grey-800 text-black'>RDBMS</span>
+                        </div>
+
                         <div className='pt-8 text-center'>
                             <a href='https://www.ibakeph.me'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
@@ -53,7 +61,13 @@ const Work = () => {
                         <span className='text-xl font-bold text-white tracking-wider text-center'>
                         <p>B2B Platform</p>
                         </span>
-                        <p>Full E-commerce Website</p>
+                        <p>All in One App for on-demand services</p>
+                        <div className='flex row'>
+                            <span className='text-[10px] text-center px-1 py-1 m-1 bg-blue-300 border border-grey-800 text-black'>Laravel</span>
+                            <span className='text-[10px] text-center px-1 py-1 m-1 bg-blue-300 border border-grey-800 text-black'>WordPress</span>
+                            <span className='text-[10px] text-center px-1 py-1 m-1 bg-blue-300 border border-grey-800 text-black'>PHP</span>
+                            <span className='text-[10px] text-center px-1 py-1 m-1 bg-blue-300 border border-grey-800 text-black'>RDBMS</span>
+                        </div>
                         <div className='pt-8 text-center'>
                             <a href='/'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Details</button>
@@ -71,9 +85,15 @@ const Work = () => {
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-xl font-bold text-white tracking-wider text-center'>
-                        <p>Organizational Platform</p>
+                        <p>Organization Platform</p>
                         </span>
-                        <p>WordPress, PHP</p>
+                        <p>Web app with membership and events</p>
+                        <div className='flex row'>
+                            <span className='text-[10px] text-center px-1 py-1 m-1 bg-blue-300 border border-grey-800 text-black'>WordPress</span>
+                            <span className='text-[10px] text-center px-1 py-1 m-1 bg-blue-300 border border-grey-800 text-black'>Elementor</span>
+                            <span className='text-[10px] text-center px-1 py-1 m-1 bg-blue-300 border border-grey-800 text-black'>PHP</span>
+                            <span className='text-[10px] text-center px-1 py-1 m-1 bg-blue-300 border border-grey-800 text-black'>Plugins</span>
+                        </div>
                         <div className='pt-8 text-center'>
                             <a href='https://phfutures.com' target="_blank" rel="noopener noreferrer">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
@@ -93,9 +113,15 @@ const Work = () => {
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-xl font-bold text-white tracking-wider text-center'>
-                        <p>Learning Management System</p>
+                        <p>Learning Management</p>
                         </span>
-                        <p className='text-center'> Thinkific, CMS</p>
+                        <p className='text-center'> E-learning Platform</p>
+                        <div className='flex row'>
+                            <span className='text-[10px] text-center px-1 py-1 m-1 bg-blue-300 border border-grey-800 text-black'>Thinkific</span>
+                            <span className='text-[10px] text-center px-1 py-1 m-1 bg-blue-300 border border-grey-800 text-black'>CMS</span>
+                            <span className='text-[10px] text-center px-1 py-1 m-1 bg-blue-300 border border-grey-800 text-black'>CSS</span>
+                            <span className='text-[10px] text-center px-1 py-1 m-1 bg-blue-300 border border-grey-800 text-black'>JavaScript</span>
+                        </div>
                         <div className='pt-8 text-center'>
                             <a href='https://www.esme.ph/' target="_blank" rel="noopener noreferrer">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
@@ -113,9 +139,14 @@ const Work = () => {
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-xl font-bold text-white tracking-wider text-center'>
-                        <p>Company Website</p>
+                        <p>Business Website</p>
                         </span>
-                        <p>React JS, Tailwind</p>
+                        <p>Business site for Booking & Inquiry</p>
+                        <div className='flex row'>
+                            <span className='text-[10px] text-center px-1 py-1 m-1 bg-blue-300 border border-grey-800 text-black'>React JS</span>
+                            <span className='text-[10px] text-center px-1 py-1 m-1 bg-blue-300 border border-grey-800 text-black'>Tailwind CSS</span>
+                            <span className='text-[10px] text-center px-1 py-1 m-1 bg-blue-300 border border-grey-800 text-black'>RDBMS</span>
+                        </div>
                         <div className='pt-8 text-center'>
                             <a href='/'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
@@ -135,9 +166,13 @@ const Work = () => {
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-xl font-bold text-white tracking-wider text-center'>
-                        <p>Company Website</p>
+                        <p>Corporate Website</p>
                         </span>
-                        <p>React JS, Tailwind</p>
+                        <p>Company Information</p>
+                        <div className='flex row'>
+                        <span className='text-[10px] text-center px-1 py-1 m-1 bg-blue-300 border border-grey-800 text-black'>React JS</span>
+                            <span className='text-[10px] text-center px-1 py-1 m-1 bg-blue-300 border border-grey-800 text-black'>Tailwind CSS</span>
+                        </div>
                         <div className='pt-8 text-center'>
                             <a href='/'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
