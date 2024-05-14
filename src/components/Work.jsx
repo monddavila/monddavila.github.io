@@ -4,7 +4,7 @@ import philfutures from '../assets/philfutures.png'
 import ibake from '../assets/ibake.png'
 import esme from '../assets/esme.png'
 import realEstate from '../assets/realestate.jpg'
-import WorkImg from '../assets/workImg.jpeg'
+import Onlinebank from '../assets/onlinebank.png'
 import { FaRegArrowAltCircleRight } from "react-icons/fa";
 
 const Work = () => {
@@ -77,6 +77,34 @@ const Work = () => {
 
                     </div>
                 </div>
+
+                <div 
+                style={{backgroundImage: `url(${esme})`}}
+                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+                >
+                    
+                    {/* Hover Effects */}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-xl font-bold text-white tracking-wider text-center'>
+                        <p>Learning Management</p>
+                        </span>
+                        <p className='text-center'> E-learning Platform</p>
+                        <div className='flex row'>
+                            <span className='text-[10px] text-center px-1 py-1 m-1 bg-blue-300 border border-grey-800 text-black'>Thinkific</span>
+                            <span className='text-[10px] text-center px-1 py-1 m-1 bg-blue-300 border border-grey-800 text-black'>CMS</span>
+                            <span className='text-[10px] text-center px-1 py-1 m-1 bg-blue-300 border border-grey-800 text-black'>CSS</span>
+                            <span className='text-[10px] text-center px-1 py-1 m-1 bg-blue-300 border border-grey-800 text-black'>JavaScript</span>
+                        </div>
+                        <div className='pt-8 text-center'>
+                            <a href='https://www.esme.ph/' target="_blank" rel="noopener noreferrer">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            
+                        </div>
+
+                    </div>
+                </div>
+
                 <div 
                 style={{backgroundImage: `url(${philfutures})`}}
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -105,32 +133,7 @@ const Work = () => {
                 </div>
 
                 {/* Grid Item */}
-                <div 
-                style={{backgroundImage: `url(${esme})`}}
-                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-                >
-                    
-                    {/* Hover Effects */}
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-xl font-bold text-white tracking-wider text-center'>
-                        <p>Learning Management</p>
-                        </span>
-                        <p className='text-center'> E-learning Platform</p>
-                        <div className='flex row'>
-                            <span className='text-[10px] text-center px-1 py-1 m-1 bg-blue-300 border border-grey-800 text-black'>Thinkific</span>
-                            <span className='text-[10px] text-center px-1 py-1 m-1 bg-blue-300 border border-grey-800 text-black'>CMS</span>
-                            <span className='text-[10px] text-center px-1 py-1 m-1 bg-blue-300 border border-grey-800 text-black'>CSS</span>
-                            <span className='text-[10px] text-center px-1 py-1 m-1 bg-blue-300 border border-grey-800 text-black'>JavaScript</span>
-                        </div>
-                        <div className='pt-8 text-center'>
-                            <a href='https://www.esme.ph/' target="_blank" rel="noopener noreferrer">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            
-                        </div>
-
-                    </div>
-                </div>
+                
                 <div 
                 style={{backgroundImage: `url(${realEstate})`}}
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -149,35 +152,32 @@ const Work = () => {
                         </div>
                         <div className='pt-8 text-center'>
                             <a href='/'>
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Details</button>
                             </a>
-                            <a href='/'>
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
+                    
                         </div>
 
                     </div>
                 </div>
                 <div 
-                style={{backgroundImage: `url(${WorkImg})`}}
+                style={{backgroundImage: `url(${Onlinebank})`}}
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
                 >
                     
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-xl font-bold text-white tracking-wider text-center'>
-                        <p>Corporate Website</p>
+                        <p>Online Banking</p>
                         </span>
-                        <p>Company Information</p>
+                        <p>Bank Web application with Transactions</p>
                         <div className='flex row'>
-                        <span className='text-[10px] text-center px-1 py-1 m-1 bg-blue-300 border border-grey-800 text-black'>React JS</span>
-                            <span className='text-[10px] text-center px-1 py-1 m-1 bg-blue-300 border border-grey-800 text-black'>Tailwind CSS</span>
+                            <span className='text-[10px] text-center px-1 py-1 m-1 bg-blue-300 border border-grey-800 text-black'>PHP</span>
+                            <span className='text-[10px] text-center px-1 py-1 m-1 bg-blue-300 border border-grey-800 text-black'>JavaScript</span>
+                            <span className='text-[10px] text-center px-1 py-1 m-1 bg-blue-300 border border-grey-800 text-black'>Bootstrap</span>
+                            <span className='text-[10px] text-center px-1 py-1 m-1 bg-blue-300 border border-grey-800 text-black'>SQL</span>
                         </div>
                         <div className='pt-8 text-center'>
-                            <a href='/'>
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href='/'>
+                            <a href='https://github.com/monde1023/OnlineBanking' target="_blank" rel="noopener noreferrer" >
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
