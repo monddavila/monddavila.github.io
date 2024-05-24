@@ -17,7 +17,7 @@ const Home = () => {
           <h1 className='md:mb-3 hover:box-decoration-slice hover:bg-gradient-to-r from-indigo-600 to-pink-500 text-white text-4xl sm:text-7xl font-bold'>Raymond Davila</h1>
           {/* Add TypingEffect component here */}
           <TypingEffect
-            texts={["Programming Enthusiast", "Web Developer", "Full Stack Developer", "Mining Engineer", "Tech Savvy :)"]}
+            texts={["Programming Enthusiast", "Software Developer", "Full Stack Developer", "Mining Engineer", "Technical Data Analyst", "Tech Savvy :)"]}
           />
 
           <p className='text-[#8892b0] py-4 max-w-[700px]'>Data-driven developer with a unique blend of IT and Mining Engineering. I bridge the gap between data and design, translating complex concepts into clear and actionable solutions with a passion for problem-solving.</p>

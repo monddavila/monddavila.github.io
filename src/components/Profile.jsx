@@ -22,7 +22,7 @@ import Erp from '../assets/erp.png';
 
 const Profile = () => {
   return (
-    <div name='profile' className='w-full md:h-full bg-gradient-to-b from-gray-800 to-black text-gray-100'>
+    <div name='profile' className='w-full md:h-full bg-gradient-to-b from-black to-gray-800 text-gray-100'>
         <div className='flex flex-col justify-center items-center w-full h-full'>
 
                 <div className="py-20 max-w-[800px] w-full" name="experience">
@@ -64,8 +64,8 @@ const Profile = () => {
                           <WorkExperience
                             company="MJ Crave Digital Advertising Services"
                             position="Freelance Developer"
-                            duration="Jan 2020 - Jun 2022"
-                            description="Freelanced System Admin & Developer, managing B2B platforms (Laravel & WordPress). Built new features and functionalities while handling cloud infrastructure on DigitalOcean. Adepted at integrating 3rd party applications like payment gateways and SMS APIs."
+                            duration="May 2020 - Jun 2022"
+                            description="Freelanced System Admin & Developer, managing B2B platforms (Laravel & WordPress). Built new features and functionalities while handling cloud infrastructure on DigitalOcean. Adept at integrating 3rd party applications like payment gateways and SMS APIs."
                           />
                           <div className='flex row'>
                             <div className=" p-1 rounded-full mr-2">
