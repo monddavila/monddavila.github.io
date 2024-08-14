@@ -1,21 +1,35 @@
 {
   "files": {
-    "main.css": "/static/css/main.10d47cdf.css",
-    "main.js": "/static/js/main.937dc047.js",
+    "main.css": "/static/css/main.7ed07408.css",
+    "main.js": "/static/js/main.50266746.js",
+    "static/media/data_sales.png": "/static/media/data_sales.281c27deb245577ed41b.png",
+    "static/media/data_mining.png": "/static/media/data_mining.37b73ff81a41d51a080a.png",
     "static/media/realestate.jpg": "/static/media/realestate.44fd19f4c6872731149c.jpg",
+    "static/media/data_nobel.png": "/static/media/data_nobel.e60046dddcca84d68d16.png",
+    "static/media/data-ecommerce.png": "/static/media/data-ecommerce.26fb73ba142b70fb28ae.png",
+    "static/media/data_webscraping.png": "/static/media/data_webscraping.31d470459b42e241db6a.png",
     "static/media/onlinebank.png": "/static/media/onlinebank.690a0464529f8d5f4387.png",
     "static/media/raymond.png": "/static/media/raymond.f80f3d7b8e163742aa15.png",
     "static/media/ibake.png": "/static/media/ibake.f52d7ab2f392ad8eee2c.png",
+    "static/media/data_hr.png": "/static/media/data_hr.f01269fe85612c40232e.png",
     "static/media/esme.png": "/static/media/esme.64bfcbbdf676a17642c8.png",
     "static/media/philfutures.png": "/static/media/philfutures.3b63ecad5ebf93af31c1.png",
     "static/media/craver.png": "/static/media/craver.9985fe257c1513976aec.png",
+    "static/media/logo_prc.png": "/static/media/logo_prc.24520d5351b593c21269.png",
+    "static/media/logo_datasense.png": "/static/media/logo_datasense.8a5493a1b47efbb73485.png",
+    "static/media/logo_dict.png": "/static/media/logo_dict.83acb5e82e6d1a2b2f62.png",
     "static/media/erp.png": "/static/media/erp.f8fd65ff151244d5d221.png",
     "static/media/logo2.png": "/static/media/logo2.5a820835cb6c2ac090b8.png",
     "static/media/wordpress.png": "/static/media/wordpress.1f3e16db240fb398ed23.png",
+    "static/media/logo_google.png": "/static/media/logo_google.b17ac710d9ae46cd494e.png",
+    "static/media/logo_jrcybersec.png": "/static/media/logo_jrcybersec.d49bcb96a1e388209b2a.png",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/codeigniter.png": "/static/media/codeigniter.c5c7f99e52d21a9e6951.png",
+    "static/media/logo_datascience.png": "/static/media/logo_datascience.51ec7fc59d7c1f8a8e3b.png",
     "static/media/bootstrap.png": "/static/media/bootstrap.30f3873bd6152b1872d8.png",
+    "static/media/logo_dataanalytics.png": "/static/media/logo_dataanalytics.d78a6ee9b182d8dfc72c.png",
     "static/media/laravel.png": "/static/media/laravel.3cc0b65d02fc289d68e1.png",
+    "static/media/logo_datacamp.png": "/static/media/logo_datacamp.c9d8022656e5b3a510fd.png",
     "static/media/mysql2.png": "/static/media/mysql2.5d419d7d904d6bbf0790.png",
     "static/media/github.png": "/static/media/github.3b9e32903aa89111875d.png",
     "static/media/netbeans.png": "/static/media/netbeans.611a4e9c2cd5b46ba0a3.png",
@@ -31,11 +45,11 @@
     "static/media/java.png": "/static/media/java.def1a0c5df7119d5bc85.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.10d47cdf.css.map": "/static/css/main.10d47cdf.css.map",
-    "main.937dc047.js.map": "/static/js/main.937dc047.js.map"
+    "main.7ed07408.css.map": "/static/css/main.7ed07408.css.map",
+    "main.50266746.js.map": "/static/js/main.50266746.js.map"
   },
   "entrypoints": [
-    "static/css/main.10d47cdf.css",
-    "static/js/main.937dc047.js"
+    "static/css/main.7ed07408.css",
+    "static/js/main.50266746.js"
   ]
 }
