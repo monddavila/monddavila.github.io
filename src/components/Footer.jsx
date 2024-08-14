@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaMedium } from 'react-icons/fa';
 import { HiArrowUp } from 'react-icons/hi';
 import { animateScroll as scroll } from 'react-scroll';
 
@@ -29,11 +29,14 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 py-4 text-center text-white">
       <div className="flex justify-center space-x-4">
-        <a href="https://github.com/monde1023" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.linkedin.com/in/raymond-luna-davila/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+          <FaLinkedin className="text-3xl hover:text-gray-400" />
+        </a>
+        <a href="https://github.com/monddavila" target="_blank" rel="noopener noreferrer" title="GitHub">
           <FaGithub className="text-3xl hover:text-gray-400" />
         </a>
-        <a href="https://www.linkedin.com/in/raymond-luna-davila/" target="_blank" rel="noopener noreferrer">
-          <FaLinkedin className="text-3xl hover:text-gray-400" />
+        <a href="https://medium.com/@raymonddavila" target="_blank" rel="noopener noreferrer" title="Medium">
+          <FaMedium className="text-3xl hover:text-gray-400" />
         </a>
       </div>
       {showScrollButton && (

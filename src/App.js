@@ -8,6 +8,8 @@ import Footer from "./components/Footer";
 import Profile from "./components/Profile";
 import Mission from "./components/Mission";
 import Passion from "./components/Passion";
+import Analytics from "./components/Analytics";
+import Certifications from "./components/certifications";
 
 
 
@@ -21,7 +23,9 @@ function App() {
       <Mission />
       <Profile />
       <Skills />
+      <Analytics />
       <Work />
+      <Certifications />
       <Contact />
       <Footer />
     

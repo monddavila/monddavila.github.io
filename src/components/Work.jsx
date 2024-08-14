@@ -9,10 +9,10 @@ import { FaRegArrowAltCircleRight } from "react-icons/fa";
 
 const Work = () => {
   return (
-    <div name='projects' className='w-full md:h-screen text-gray-100 bg-gradient-to-b from-black to-gray-800'>
+    <div name='projects' className='w-full md:h-screen text-gray-100 bg-gradient-to-b from-gray-800 to-black'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
-                <p className='text-4xl font-bold inline border-b-4 border-yellow-600'>Projects</p>
+                <p className='text-4xl font-bold inline border-b-4 border-yellow-600'>Web Projects</p>
                 <p className='py-6'>Get a glimpse of my capabilities. <strong><em>"Explore my work and see how I can bridge the gap for you!"</em></strong></p>
 
             </div>
@@ -41,7 +41,7 @@ const Work = () => {
                         </div>
 
                         <div className='pt-8 text-center'>
-                            <a href='https://www.ibakeph.me'>
+                            <a href='https://www.ibakeph.me' target="_blank" rel="noopener noreferrer">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
                             <a href='https://github.com/monde1023/ibake'>
@@ -190,7 +190,7 @@ const Work = () => {
 
                 <div className='flex py-4 justify-center items-center'>
 
-                <a href="https://github.com/monde1023" target="_blank" rel="noopener noreferrer" className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-yellow-600 hover:border-yellow-600'>
+                <a href="https://github.com/monddavila" target="_blank" rel="noopener noreferrer" className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-yellow-600 hover:border-yellow-600'>
                     Show More
                     <span className='group-hover:scale-150 duration-300'>
                         <FaRegArrowAltCircleRight className='ml-3' />
@@ -201,6 +201,7 @@ const Work = () => {
              </div>
         </div>
     </div>
+    
   )
 }
 

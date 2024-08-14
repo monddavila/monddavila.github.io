@@ -3,7 +3,7 @@ import { HiArrowNarrowRight } from 'react-icons/hi';
 import TypingEffect from "./TypingEffect";
 import HeroImage from "../assets/raymond.png";
 import { Link as ScrollLink } from 'react-scroll';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaMedium } from 'react-icons/fa';
 
 const Home = () => {
   return (
@@ -17,7 +17,7 @@ const Home = () => {
           <h1 className='md:mb-3 hover:box-decoration-slice hover:bg-gradient-to-r from-indigo-600 to-pink-500 text-white text-4xl sm:text-7xl font-bold'>Raymond Davila</h1>
           {/* Add TypingEffect component here */}
           <TypingEffect
-            texts={["Programming Enthusiast", "Software Developer", "Full Stack Developer", "Mining Engineer", "Technical Data Analyst", "Tech Savvy :)"]}
+            texts={["Data Analyst", "Programming Enthusiast", "Software Developer", "Full Stack Developer", "Mining Engineer", "Tech Savvy :)"]}
           />
 
           <p className='text-[#8892b0] py-4 max-w-[700px]'>Data-driven developer with a unique blend of IT and Mining Engineering. I bridge the gap between data and design, translating complex concepts into clear and actionable solutions with a passion for problem-solving.</p>
@@ -29,11 +29,14 @@ const Home = () => {
                 </span>
               </button>
             </ScrollLink>
-            <a href="https://www.linkedin.com/in/raymond-luna-davila/" target="_blank" rel="noopener noreferrer" className="ml-4">
+            <a href="https://www.linkedin.com/in/raymond-luna-davila/" target="_blank" rel="noopener noreferrer" className="ml-4" title="LinkedIn">
               <FaLinkedin className="text-3xl text-gray-200 hover:text-gray-600" />
             </a>
-            <a href="https://github.com/monde1023" target="_blank" rel="noopener noreferrer" className="ml-4">
+            <a href="https://github.com/monde1023" target="_blank" rel="noopener noreferrer" className="ml-4" title="GitHub">
               <FaGithub className="text-3xl text-gray-200 hover:text-gray-600" />
+            </a>
+            <a href="https://medium.com/@raymonddavila" target="_blank" rel="noopener noreferrer" className="ml-4" title="Medium">
+              <FaMedium className="text-3xl text-gray-200 hover:text-gray-600" />
             </a>
           
           </div>
